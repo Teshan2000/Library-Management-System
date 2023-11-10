@@ -9,55 +9,76 @@ public class Library {
         Scanner input = new Scanner(System.in);
 
         System.out.println("Please Select your Choice:");
-        String choice = input.nextLine();
-
-        System.out.println("User");
-        System.out.println("Owner");
-        System.out.println("Exit");
+        System.out.println("(1) User");
+        System.out.println("(2) Owner");
+        System.out.println("(3) Exit");
+        int choice = input.nextInt();
 
         switch(choice) {
+
             case 1:
-            User();
+            System.out.println("------------------------------------------------");
+            System.out.println("\tWelcome User!");
+            System.out.println("------------------------------------------------");
+
+            System.out.println("Please Select your Choice:");
+            System.out.println("(1) Become an Member");
+            System.out.println("(2) Select Books");
+            System.out.println("(3) Borrow Books");
+            System.out.println("(4) Back to Home page");
+            int option = input.nextInt();
+
+            switch(option) {
+                case 1:
+                //User();
+
+                case 2:
+                //Owner();
+
+                case 3:
+                //Exit();
+
+                // case 4:
+                // main(args);
+
+            }
+            break;
 
             case 2:
-            Owner();
+            System.out.println("------------------------------------------------");
+            System.out.println("\tWelcome Owner!");
+            System.out.println("------------------------------------------------");
+
+            System.out.println("Please Select your Choice:");
+            System.out.println("(1) Log to the Account");
+            System.out.println("(2) Display Books");
+            System.out.println("(3) Display Members");
+            System.out.println("(4) Back to Home page");
+            int options = input.nextInt();
+
+            switch(options) {
+                case 1:
+                //User();
+
+                case 2:
+                //Owner();
+
+                // case 3:
+                // Exit();
+
+                // case 4:
+                // main(args);
+            }
+            break;
 
             case 3:
-            Exit();
+            System.out.println("Confirm Exit\n");    
+            break;
 
             case 4:
             main(args);
         }
     }
 
-    static void User() {
-        System.out.println("------------------------------------------------");
-        System.out.println("\tWelcome User!");
-        System.out.println("------------------------------------------------");
 
-        System.out.println("Please Select your Choice:");
-        String choice = input.nextLine();
-
-        System.out.println("(1) Create an Account");
-        System.out.println("(2) Select Books");
-        System.out.println("(3) Borrow Books");
-        System.out.println("(4) Borrow Books");
-
-        switch(choice) {
-            case 1:
-            User();
-
-            case 2:
-            Owner();
-
-            case 3:
-            Exit();
-
-            case 4:
-            main(args);
-
-            case 5:
-            main(args);
-        }
-    }
 }
