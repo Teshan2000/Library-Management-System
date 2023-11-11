@@ -22,7 +22,7 @@ public class Library {
             System.out.println("------------------------------------------------");
 
             System.out.println("Please Select your Choice:");
-            System.out.println("(1) Become an Member");
+            System.out.println("(1) Become a Member");
             System.out.println("(2) Select Books");
             System.out.println("(3) Borrow Books");
             System.out.println("(4) Back to Home page");
@@ -30,7 +30,17 @@ public class Library {
 
             switch(option) {
                 case 1:
-                //User();
+                System.out.println("------------------------------------------------");
+                System.out.println("\t\t Become a Member");
+                System.out.println("------------------------------------------------");
+                System.out.println("Enter Username: \n");
+                String username = input.nextLine();
+                System.out.println("Enter Password: \n");
+                String password = input.nextLine();
+
+                System.out.println("------------------------------------------------");
+                System.out.println("\t\t You are a Member of the library now!");
+                System.out.println("------------------------------------------------");
 
                 case 2:
                 //Owner();
