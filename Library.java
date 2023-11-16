@@ -23,7 +23,7 @@ public class Library {
 
             System.out.println("Please Select your Choice:");
             System.out.println("(1) Become a Member");
-            System.out.println("(2) Select Books");
+            System.out.println("(2) Display Books");
             System.out.println("(3) Borrow Books");
             System.out.println("(4) Back to Home page");
             int option = input.nextInt();
@@ -39,11 +39,15 @@ public class Library {
                 String password = input.nextLine();
 
                 System.out.println("------------------------------------------------");
-                System.out.println("\t\t You are a Member of the library now!");
+                System.out.println("\t You are a Member of the library now!");
                 System.out.println("------------------------------------------------");
 
                 case 2:
-                //Owner();
+                System.out.println("-----------------------------------------------------------------------------------------------------");
+                System.out.println("\t\t Display Books");
+                System.out.println("-----------------------------------------------------------------------------------------------------");           
+                System.out.println("Id\t\tTitle\t\t\t\tAuthor\t\t\tCategory");
+                System.out.println("-----------------------------------------------------------------------------------------------------");
 
                 case 3:
                 //Exit();
@@ -61,7 +65,7 @@ public class Library {
 
             System.out.println("Please Select your Choice:");
             System.out.println("(1) Log to the Account");
-            System.out.println("(2) Display Books");
+            System.out.println("(2) Edit Books");
             System.out.println("(3) Display Members");
             System.out.println("(4) Back to Home page");
             int options = input.nextInt();
