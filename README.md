@@ -20,19 +20,19 @@ This **Library Management System** is a Java-based application designed to simpl
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://github.com/your-username/Library-Management-System.git
+   git clone https://github.com/Teshan2000/Library-Management-System.git
    ```
 
 2. **Open the Project in an IDE:**
    Import the project into your favorite IDE (e.g., IntelliJ IDEA, Eclipse, or NetBeans).
 
 3. **Set Up the Database:**
-   - Create a database and import the provided schema (if available).
+   - Create a database and import the provided schema.
    - Update the database connection settings in the application.
 
 4. **Compile and Run:**
    - Compile the Java files and run the main class to start the application.
-   - Use the GUI (if implemented) or console interface to interact with the system.
+   - Use the GUI or console interface to interact with the system.
 
 <!-- ## Example Screenshots
 
@@ -40,7 +40,11 @@ Add screenshots of the application showing book management, member management, a
 
 ## Contribution Guidelines
 
-Contributions are welcome! Feel free to open issues or submit pull requests to improve the Library Management System.
+Thank you for considering contributing to this project! Here’s how you can help:
+
+- **Reporting Issues:** If you find a bug, please create an issue describing the problem and steps to reproduce it.
+- **Feature Requests:** Feel free to suggest new features by opening an issue.
+- **Submitting Pull Requests:** If you would like to make a change, fork the repository, make your changes, and submit a pull request. Be sure to provide a clear description of what the change does.
 
 ## License
 
